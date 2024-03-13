@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Messenger</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="chats">Chats</string>
+    <string name="discover">Discover</string>
+    <string name="people">People</string>
+    <string name="search">Search</string>
+    <string name="messenger">Messenger</string>
+    <string name="aa">Aa</string>
+    <string name="mobile_number_or_email">Mobile number or email</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log in</string>
+    <string name="create_new_account">Create new account</string>
+    <string name="your_name">Your name</string>
+    <string name="confirm_your_password">Confirm your password</string>
+    <string name="requirement_description">Create a password with at least 6 letters or numbers. It should be something others can\'t guess</string>
+    <string name="create">Create</string>
+</resources>

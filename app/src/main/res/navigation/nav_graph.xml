@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_chats">
+
+    <fragment
+        android:id="@+id/navigation_chats"
+        android:name="dev.proptit.messenger.ui.screen.main.ChatsFragment"
+        android:label="fragment_chat"
+        tools:layout="@layout/fragment_chats" >
+        <action
+            android:id="@+id/action_navigation_chats_to_chatFragment"
+            app:destination="@id/chatFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_people"
+        android:name="dev.proptit.messenger.ui.screen.main.PeopleFragment"
+        android:label="fragment_people"
+        tools:layout="@layout/fragment_people" >
+        <action
+            android:id="@+id/action_navigation_people_to_chatFragment"
+            app:destination="@id/chatFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_discover"
+        android:name="dev.proptit.messenger.ui.screen.main.DiscoverFragment"
+        android:label="fragment_discover"
+        tools:layout="@layout/fragment_discover" />
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="dev.proptit.messenger.ui.screen.main.ChatFragment"
+        android:label="fragment_chat"
+        tools:layout="@layout/fragment_chat" />
+</navigation>

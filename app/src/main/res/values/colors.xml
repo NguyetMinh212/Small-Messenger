@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="start_color">#01B2FF</color>
+    <color name="end_color">#016DFF</color>
+    <color name="status_bar_color">#01B2FF</color>
+    <color name="nav_bar_color">#016DFF</color>
+    <color name="light_white">#A4AAB2</color>
+    <color name="bg_search_view">#07000000</color>
+    <color name="light_text_color">#7f000000</color>
+</resources>
